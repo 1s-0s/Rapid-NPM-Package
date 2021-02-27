@@ -1,1 +1,1 @@
-<h1>Welcome to rAPId news NPM Package</h1>
+<h1>Welcome to <em>RAPID NEWS</em> NPM Package</h1>
