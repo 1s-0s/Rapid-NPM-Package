@@ -1,0 +1,1 @@
+<h1>Welcome to rAPId news NPM Package</h1>
