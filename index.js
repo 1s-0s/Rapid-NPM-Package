@@ -10,6 +10,6 @@ const callback = (data) => {
     return data;
 }
 //entertainment(callback, sortBy);
-science(callback);
+science(callback, sortBy);
 
 
