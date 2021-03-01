@@ -10,8 +10,8 @@ const callback = (data) => {
     console.log(data);
     return data;
 }
-//entertainment(callback, sortBy);
-// science(callback);
+entertainment(callback, sortBy);
+science(callback);
 meme(callback);
 
 
