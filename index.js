@@ -1,6 +1,7 @@
 const entertainment = require("./components/entertainment");
 const science = require("./components/science");
 const meme = require("./components/meme");
+const business = require("./components/business");
 
 
 const technology = require("./components/technology");
@@ -14,6 +15,7 @@ const callback = (data) => {
 }
 entertainment(callback, sortBy);
 science(callback, sortBy);
+business(callback, sortBy);
 meme(callback);
 technology(callback, sortBy);
 
