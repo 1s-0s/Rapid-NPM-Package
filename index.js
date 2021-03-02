@@ -3,6 +3,7 @@ const science = require("./components/science");
 const meme = require("./components/meme");
 const business = require("./components/business");
 const technology = require("./components/technology");
+const health = require("./components/health");
 //const KEY="3c024bb258b14a3796b0ddd518d59c0f";
 //sortBy-> relevancy, popularity
 let sortBy = "popularity";
@@ -15,4 +16,6 @@ entertainment(callback, sortBy);
 science(callback, sortBy);
 business(callback, sortBy);
 technology(callback, sortBy);
+
+health(callback, sortBy);
 meme(callback);
