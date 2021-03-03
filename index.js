@@ -11,9 +11,11 @@ const category = require("./components/category");
 const keyword = require("./components/keyword");
 const language = require("./components/language");
 const country = require("./components/country");
+const weather = require("./components/weather");
 
 //const KEY="3c024bb258b14a3796b0ddd518d59c0f";
 //sortBy-> relevancy, popularity
+let weatherKEY="1aa20cbff782a94b88e67eff6f2edc87";
 
 //? PARAMETERS
 let sortBy = "popularity";
@@ -21,7 +23,7 @@ let type = "health";
 let key = "tesla";
 let lang = "ar";
 let cname = "in";
-
+let weatherCity="London";
 //? CALLBACK FUNCTION
 const callback = (data) => {
     console.log(data);
@@ -37,7 +39,8 @@ const callback = (data) => {
 // sports(callback, sortBy);
 // general(callback, sortBy);
 // meme(callback);
-//category(callback, type);
+// category(callback, type);
 // keyword(callback, key);
-//language(callback, key, lang);
-country(callback, cname);
+// language(callback, key, lang);
+// country(callback, cname);
+weather(callback,weatherKEY,weatherCity);
