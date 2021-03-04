@@ -12,18 +12,21 @@ const keyword = require("./components/keyword");
 const language = require("./components/language");
 const country = require("./components/country");
 const {weather,weatherByLatLon,weatherByZip, weatherByCityId, weatherByRectZone} = require("./components/weather");
+const food = require("./components/food");
 
 //const KEY="3c024bb258b14a3796b0ddd518d59c0f";
 //sortBy-> relevancy, popularity
-let weatherKEY="1aa20cbff782a94b88e67eff6f2edc87";
-
+let weatherKEY = "1aa20cbff782a94b88e67eff6f2edc87";
+let foodKEY = "69d004c3e3c5b967261e625baea627fc"
+let foodID = "85b409cf"
 //? PARAMETERS
 let sortBy = "popularity";
 let type = "health";
 let key = "tesla";
 let lang = "ar";
 let cname = "in";
-let weatherCity="Delhi";
+let weatherCity = "London";
+let fname = "watermelon";
 //? CALLBACK FUNCTION
 const callback = (data) => {
     console.log(data);
@@ -43,6 +46,8 @@ const callback = (data) => {
 // keyword(callback, key);
 // language(callback, key, lang);
 // country(callback, cname);
+//weather(callback,weatherKEY,weatherCity);
+food(callback, foodID, foodKEY, fname)
 weatherByCityId(callback,weatherKEY,"2172797");
 weatherByLatLon(callback,weatherKEY,"55.5","37.5","10");
 weatherByZip(callback,weatherKEY,"94040","us");
