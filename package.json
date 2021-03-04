@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Samridhi-98/Rapid-NPM-Package#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
   }
 }

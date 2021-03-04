@@ -1,9 +1,13 @@
 const axios = require("axios");
-const keyword = async (callback, key) => {
-    await axios.get(`http://newsapi.org/v2/everything?q=${key}&apiKey=3c024bb258b14a3796b0ddd518d59c0f`)
+const { country } = require("..");
+const keyword = async (newsKEY,key,country) => {
+    await axios.get(`http://newsapi.org/v2/everything?q=${key}&country=${country}&language=${lang}&apiKey=${newsKEY}`)
         .then((res) => {
-            callback(res.data);
-        }
-        )
+            //callback(res.data);
+            return res.data;
+        })
+        .catch((err)=>{
+            return err;
+        })
 }
 module.exports = keyword;
