@@ -11,6 +11,7 @@ const category = require("./components/category");
 const keyword = require("./components/keyword");
 const language = require("./components/language");
 const country = require("./components/country");
+const food = require("./components/food");
 
 //const KEY="3c024bb258b14a3796b0ddd518d59c0f";
 //sortBy-> relevancy, popularity
@@ -21,6 +22,7 @@ let type = "health";
 let key = "tesla";
 let lang = "ar";
 let cname = "in";
+let foodName = "watermelon";
 
 //? CALLBACK FUNCTION
 const callback = (data) => {
@@ -29,15 +31,16 @@ const callback = (data) => {
 }
 
 //? API CALLS
-// entertainment(callback, sortBy);
-// science(callback, sortBy);
-// business(callback, sortBy);
-// technology(callback, sortBy);
-// health(callback, sortBy);
-// sports(callback, sortBy);
-// general(callback, sortBy);
-// meme(callback);
-//category(callback, type);
-// keyword(callback, key);
-//language(callback, key, lang);
+entertainment(callback, sortBy);
+science(callback, sortBy);
+business(callback, sortBy);
+technology(callback, sortBy);
+health(callback, sortBy);
+sports(callback, sortBy);
+general(callback, sortBy);
+meme(callback);
+category(callback, type);
+keyword(callback, key);
+language(callback, key, lang);
 country(callback, cname);
+food(callback, foodName);
