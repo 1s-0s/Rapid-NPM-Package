@@ -43,8 +43,8 @@ const callback = (data) => {
 // keyword(callback, key);
 // language(callback, key, lang);
 // country(callback, cname);
-weather(callback,weatherKEY,weatherCity);
 weatherByCityId(callback,weatherKEY,"2172797");
 weatherByLatLon(callback,weatherKEY,"55.5","37.5","10");
 weatherByZip(callback,weatherKEY,"94040","us");
 weatherByRectZone(callback,weatherKEY,"12,32,15,37,10");
+weather(callback,weatherKEY,weatherCity);
