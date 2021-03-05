@@ -1,23 +1,23 @@
 {
-  "name": "rapid-npm-package",
-  "version": "1.0.0",
-  "description": "news npm package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Samridhi-98/Rapid-NPM-Package.git"
-  },
-  "author": "1's&&0's",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Samridhi-98/Rapid-NPM-Package/issues"
-  },
-  "homepage": "https://github.com/Samridhi-98/Rapid-NPM-Package#readme",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "dotenv": "^8.2.0"
-  }
+    "name": "rapid-js",
+    "version": "1.0.1",
+    "description": "news npm package",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Samridhi-98/Rapid-NPM-Package.git"
+    },
+    "author": "1's&&0's",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Samridhi-98/Rapid-NPM-Package/issues"
+    },
+    "homepage": "https://github.com/Samridhi-98/Rapid-NPM-Package#readme",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dotenv": "^8.2.0"
+    }
 }
