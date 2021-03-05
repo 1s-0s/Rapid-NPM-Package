@@ -60,12 +60,16 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>LANGUAGE<em>(optional)</em></td>
     </tr>
      <tr>
-        <td>keyword</td>
-        <td>API_KEY</td>
-        <td>SEARCH_WORD</td>
-        <td>COUNTRY<em>(optional)</em></td>
-        <td>SORTBY<em>(optional)</em></td>
-        <td>LANGUAGE<em>(optional)</em></td>
+        <td>
+            <ul>
+                <li>keyword</li>
+                <li>API_KEY</li>
+                <li>SEARCH_WORD</li>
+                <li>COUNTRY<em>(optional)</em></li>
+                <li>SORTBY<em>(optional)</em></li>
+                <li>LANGUAGE<em>(optional)</em></li>
+            </ul>
+        </td>
     </tr>
 </table>  
 <h3> WeatherAPI </h3>
