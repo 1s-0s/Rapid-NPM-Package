@@ -1,6 +1,6 @@
 <h1> Rapid-JS <a><img width="40" height="40" src="./logo.svg" alt="" ></a> </h1>
 <p>
-Fast API search and implemetation using various APIs like newsAPI, weatherAPI, memeAPI and FoodAPI.
+Fast API search and implementation using various APIs like newsAPI, weatherAPI, memeAPI and FoodAPI.
 </p>
 
 <h2> Node JS Usage </h2>
