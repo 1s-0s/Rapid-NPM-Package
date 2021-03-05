@@ -1,6 +1,6 @@
 {
     "name": "rapid-npm-package",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "news npm package",
     "main": "index.js",
     "scripts": {
