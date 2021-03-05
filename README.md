@@ -44,3 +44,10 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 
 ```
 
+<h2> API Methods and Optional Parameter </h2>
+<h3> NewsAPI </h3>
+<table>
+  
+  
+</table>  
+  
