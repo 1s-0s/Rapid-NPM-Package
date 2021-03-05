@@ -49,7 +49,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 <table>
     <tr>
         <th>Method name</th>
-        <th  rowspan="5">Parameter list</th>
+        <th  colspan="5">Parameter list</th>
     </tr> 
     <tr>
         <td>headlines</td>
@@ -72,7 +72,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 <table>
     <tr>
         <th>Method name</th>
-        <th rowspan="7">Parameter list</th>
+        <th colspan="7">Parameter list</th>
     </tr> 
     <tr>
         <td>weather</td>
@@ -81,7 +81,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>STATE_CODE<em>(optional)</em></td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td rowspan="3">LANGUAGE<em>(optional)</em></td>
+        <td colspan="3">LANGUAGE<em>(optional)</em></td>
     </tr>
     <tr>
         <td>weatherByCityId</td>
@@ -89,7 +89,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>CITY_ID</td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td rowspan="3">LANGUAGE<em>(optional)</em></td>
+        <td colspan="3">LANGUAGE<em>(optional)</em></td>
     </tr>
     <tr>
         <td>weatherByLatLon</td>
@@ -108,7 +108,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>COUNTRY_CODE<em>(optional)</em></td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td rowspan="2">LANGUAGE<em>(optional)</em></td>
+        <td colspan="2">LANGUAGE<em>(optional)</em></td>
     </tr>
     <tr>
         <td>weatherByRectZone</td>
@@ -117,7 +117,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>STATE_CODE<em>(optional)</em></td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td rowspan="2">LANGUAGE<em>(optional)</em></td>
+        <td colspan="2">LANGUAGE<em>(optional)</em></td>
     </tr>
 </table>    
 <h3> MemeAPI </h3>
@@ -135,7 +135,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 <table>
     <tr>
         <th>Method name</th>
-        <th rowspan="3">Parameter list</th>
+        <th colspan="3">Parameter list</th>
     </tr> 
     <tr>
         <td>food</td>
