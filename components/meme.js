@@ -1,5 +1,5 @@
 const axios = require("axios");
-const meme = async (callback) => {
+const meme = async () => {
     await axios.get(`https://api.imgflip.com/get_memes`)
         .then((res) => {
             // console.log(res.data.data.memes);
