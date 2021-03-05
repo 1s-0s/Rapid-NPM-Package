@@ -44,7 +44,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 
 ```
 
-<h2> API Methods and Optional Parameter </h2>
+<h2> API Methods and Optional Parameters </h2>
 <h3> NewsAPI </h3>
 <table>
     <tr>
@@ -144,3 +144,10 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>FOOD_NAME</td>
     </tr>
 </table> 
+
+<h3> Links for API_KEY </h3>
+<ul>
+    <li>NewsAPI - <a href="https://newsapi.org/"></li>
+    <li>WeatherAPI - <a href="https://openweathermap.org/"></li>
+    <li>FoodAPI - <a href="https://rapidapi.com/edamam/api/edamam-food-and-grocery-database"></li>
+</ul>
