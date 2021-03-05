@@ -49,7 +49,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 <table>
     <tr>
         <th>Method name</th>
-        <th>Parameter list</th>
+        <th  rowspan="5">Parameter list</th>
     </tr> 
     <tr>
         <td>headlines</td>
@@ -60,23 +60,19 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>LANGUAGE<em>(optional)</em></td>
     </tr>
      <tr>
-        <td>
-            <ul>
-                <li>keyword</li>
-                <li>API_KEY</li>
-                <li>SEARCH_WORD</li>
-                <li>COUNTRY<em>(optional)</em></li>
-                <li>SORTBY<em>(optional)</em></li>
-                <li>LANGUAGE<em>(optional)</em></li>
-            </ul>
-        </td>
+        <td>keyword</td>
+        <td>API_KEY</td>
+        <td>SEARCH_WORD</td>
+        <td>COUNTRY<em>(optional)</em></td>
+        <td>SORTBY<em>(optional)</em></td>
+        <td>LANGUAGE<em>(optional)</em></td>
     </tr>
 </table>  
 <h3> WeatherAPI </h3>
 <table>
     <tr>
         <th>Method name</th>
-        <th>Parameter list</th>
+        <th rowspan="7">Parameter list</th>
     </tr> 
     <tr>
         <td>weather</td>
@@ -85,7 +81,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>STATE_CODE<em>(optional)</em></td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td>LANGUAGE<em>(optional)</em></td>
+        <td rowspan="3">LANGUAGE<em>(optional)</em></td>
     </tr>
     <tr>
         <td>weatherByCityId</td>
@@ -93,7 +89,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>CITY_ID</td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td>LANGUAGE<em>(optional)</em></td>
+        <td rowspan="3">LANGUAGE<em>(optional)</em></td>
     </tr>
     <tr>
         <td>weatherByLatLon</td>
@@ -112,14 +108,16 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
         <td>COUNTRY_CODE<em>(optional)</em></td>
         <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td>LANGUAGE<em>(optional)</em></td>
+        <td rowspan="2">LANGUAGE<em>(optional)</em></td>
     </tr>
     <tr>
         <td>weatherByRectZone</td>
         <td>API_KEY</td>
         <td>Dimension(BBOX)</td>
+        <td>STATE_CODE<em>(optional)</em></td>
+        <td>MODE<em>(optional)</em></td>
         <td>UNITS<em>(optional)</em></td>
-        <td>LANGUAGE<em>(optional)</em></td>
+        <td rowspan="2">LANGUAGE<em>(optional)</em></td>
     </tr>
 </table>    
 <h3> MemeAPI </h3>
@@ -137,7 +135,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 <table>
     <tr>
         <th>Method name</th>
-        <th>Parameter list</th>
+        <th rowspan="3">Parameter list</th>
     </tr> 
     <tr>
         <td>food</td>
