@@ -1,6 +1,6 @@
 const axios = require("axios");
 const { country } = require("..");
-const keyword = async (newsKEY,key,country) => {
+const keyword = async (newsKEY,key,country="",lang="") => {
     await axios.get(`http://newsapi.org/v2/everything?q=${key}&country=${country}&language=${lang}&apiKey=${newsKEY}`)
         .then((res) => {
             //callback(res.data);
