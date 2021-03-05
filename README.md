@@ -147,7 +147,7 @@ let foodDetails = rapidAPI.food(KEY,Food_ID,FOOD_NAME);
 
 <h3> Links for API_KEY </h3>
 <ul>
-    <li>NewsAP <a href="https://newsapi.org/"></li>
-    <li>WeatherAPI<a href="https://openweathermap.org/"></li>
-    <li>FoodAPI<a href="https://rapidapi.com/edamam/api/edamam-food-and-grocery-database"></li>
+    <li><a href="https://newsapi.org/">NewsAPI</a>
+    <li><a href="https://openweathermap.org/">WeatherAPI</a>
+    <li><a href="https://rapidapi.com/edamam/api/edamam-food-and-grocery-database">FoodAPI</a>
 </ul>
